@@ -1,0 +1,76 @@
+{
+  "reasoning_content": "文本是著作权法第10条的内容，定义著作权包括的权利。首先，识别实体：整个法律为'中华人民共和国著作权法'，node_type为Law；条款'第十条'，node_type为Article；列出的权利包括发表权、署名权、修改权、保护作品完整权，node_type均为Right。接着，提取关系：法律拥有文章（HAS_ARTICLE），文章拥有每个权利（HAS_RIGHT）。定义文本作为extra信息添加到权利实体中，保护作品完整权无额外定义。uid基于名称生成以保证唯一性。",
+  "content": {
+    "entities": [
+      {
+        "uid": "Law:著作权法",
+        "node_type": "Law",
+        "name": "中华人民共和国著作权法",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第10条",
+        "node_type": "Article",
+        "name": "第十条",
+        "extra": {}
+      },
+      {
+        "uid": "Right:发表权",
+        "node_type": "Right",
+        "name": "发表权",
+        "extra": {
+          "definition": "即决定作品是否公之于众的权利"
+        }
+      },
+      {
+        "uid": "Right:署名权",
+        "node_type": "Right",
+        "name": "署名权",
+        "extra": {
+          "definition": "即表明作者身份，在作品上署名的权利"
+        }
+      },
+      {
+        "uid": "Right:修改权",
+        "node_type": "Right",
+        "name": "修改权",
+        "extra": {
+          "definition": "即修改或者授权他人修改作品的权利"
+        }
+      },
+      {
+        "uid": "Right:保护作品完整权",
+        "node_type": "Right",
+        "name": "保护作品完整权",
+        "extra": {}
+      }
+    ],
+    "relations": [
+      {
+        "from_uid": "Law:著作权法",
+        "to_uid": "Article:第10条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Article:第10条",
+        "to_uid": "Right:发表权",
+        "rel_type": "HAS_RIGHT"
+      },
+      {
+        "from_uid": "Article:第10条",
+        "to_uid": "Right:署名权",
+        "rel_type": "HAS_RIGHT"
+      },
+      {
+        "from_uid": "Article:第10条",
+        "to_uid": "Right:修改权",
+        "rel_type": "HAS_RIGHT"
+      },
+      {
+        "from_uid": "Article:第10条",
+        "to_uid": "Right:保护作品完整权",
+        "rel_type": "HAS_RIGHT"
+      }
+    ]
+  }
+}
