@@ -8,7 +8,7 @@ from KG_tools.extracr_json_from_string import extract_json_from_string
 
 client = OpenAI(
     base_url="https://ai.gitee.com/v1",
-    api_key="DUQFR61KA8QLDVEQPGJKBXYSL2DXMPST1FM98Y1L",
+    api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     default_headers={"X-Failover-Enabled":"true"},
 )
 
