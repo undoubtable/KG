@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Neo4j Auto Login</title>
+</head>
+<body>
+
+<script>
+  // 直接跳转到 Neo4j Browser（不要用 window.open）
+  window.location.href = "http://localhost:7474/browser";
+
+  // 监听页面变化，尝试自动登录 + 自动连接
+  const interval = setInterval(() => {
+    // 1️⃣ 第一步：找用户名密码输入框 + Login
+    const userField = document.querySelector('input[placeholder="Username"]');
+    const passField = document.querySelector('input[placeholder="Password"]');
+    const loginBtn = document.querySelector('button[type="submit"]');
+
+    if (userField && passField && loginBtn) {
+      userField.value = "neo4j";    
+      passField.value = "20011127";
+      loginBtn.click();
+      console.log("已自动点击登录");
+      return;  // 登录成功后等待进入下一步骤
+    }
+
+    // 2️⃣ 第二步：登录后会出现 “Connect” 按钮
+    const connectBtn = document.querySelector('button[aria-label="Connect"]');
+    if (connectBtn) {
+      connectBtn.click();
+      console.log("已自动点击 Connect");
+      clearInterval(interval);
+    }
+
+  }, 500);
+</script>
+
+</body>
+</html>
