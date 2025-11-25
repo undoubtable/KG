@@ -40,3 +40,76 @@ Important:
 - DO NOT output any text outside the JSON.
 - DO NOT output <think> or any other tags.
 - Even if you cannot finish all extraction, you MUST still output the JSON with whatever entities/relations you already have.
+
+==========================
+禁止错误实体（非常重要）
+==========================
+
+你必须严格遵守以下规则，以避免错误实体抽取：
+
+1. **凡是匹配以下格式的内容，全部属于结构性标记（结构实体）**
+   - “第 X 章”
+   - “第 X 条”
+   - “第 X 节”
+   - “第 X 编”
+   - “第 X 部”
+   - “第 X 目”
+
+   其中 X 可以是：
+   - 中文数字（如：一、二、三、十、二十六、八十九）
+   - 阿拉伯数字（1, 2, 26）
+
+2. 这些结构标记只能作为以下 node_type 出现：
+   - “第 X 章” → Chapter
+   - “第 X 条” → Article
+
+3. **绝对禁止把结构标记当成语义实体：**
+   以下行为都是错误的，禁止出现：
+   - 不允许 node_type = Concept 且 name = “第二十六条”
+   - 不允许 node_type = Entity 且 name = “第十章”
+   - 不允许 node_type = Definition 且 name = “第三条”
+   - 不允许任何结构性条号出现在语义实体中
+
+4. **禁止生成以下错误关系：**
+   - Article → “第二十六条” (作为 concept 或 entity)
+   - Chapter → “第十章” (作为 concept 或 entity)
+
+5. **正确示例：**
+  {
+        "uid": "Right:修改权",
+        "node_type": "Right",
+        "name": "修改权",
+        "extra": {
+          "description": "修改或者授权他人修改作品的权利"
+        }
+      }
+
+6. 语义实体只能来自：
+   - 条文正文内容（不包含条号）
+   - 法律术语、定义、对象、权利义务、组织机构等真实概念
+
+-----------------------------
+针对条文正文的抽取要求（增强）
+-----------------------------
+
+当输入中包含某一条款的条文正文时（例如：
+“第二十六条 申请发明或实用新型应提交请求书、说明书及必要图纸。”），
+你应该：
+
+1. 仅将“第二十六条”作为 Article 结构实体（由程序创建或按规则创建），
+   不将其作为 Concept/Entity/Definition。
+
+2. 重点从条文正文部分抽取语义实体，例如：
+   - “发明或实用新型”       → 通常为 Concept（本条适用的对象）
+   - “请求书”、“说明书”、“必要图纸” → 通常为 Concept（可在 extra 中标记为 "category": "application_document"）
+
+3. 为这些语义实体建立清晰的关系，例如：
+   - Article:第二十六条 → Concept:发明或实用新型  （rel_type = "APPLIES_TO_OBJECT"）
+   - Article:第二十六条 → Concept:请求书          （rel_type = "REQUIRES_DOC"）
+   - Article:第二十六条 → Concept:说明书          （rel_type = "REQUIRES_DOC"）
+   - Article:第二十六条 → Concept:必要图纸        （rel_type = "REQUIRES_DOC"）
+
+4. 对其他条款也采用类似策略：
+   - 遇到“……的权利”表述 → 考虑创建 Right 节点，并用 GRANTS_RIGHT 等关系连接到相应 Article。
+   - 遇到“……应当”、“负有……义务”的主体 → 可以创建 Entity 节点，并用 IMPOSES_DUTY 等关系连接。
+

@@ -71,241 +71,389 @@
         "uid": "Article:第一条",
         "node_type": "Article",
         "name": "第一条",
-        "extra": {}
+        "extra": {
+          "body": "为了保护发明创造的专利权，鼓励发明创造的公开和应用，促进科学技术进步和创新，推动\n经济社会发展，制定本法。"
+        }
       },
       {
         "uid": "Article:第二条",
         "node_type": "Article",
         "name": "第二条",
-        "extra": {}
+        "extra": {
+          "body": "本法所称发明创造是指发明、实用新型和外观设计。"
+        }
       },
       {
         "uid": "Article:第三条",
         "node_type": "Article",
         "name": "第三条",
-        "extra": {}
+        "extra": {
+          "body": "国务院专利行政部门负责全国的专利工作；县级以上地方人民政府管理专利工作的部门负责\n本行政区域内的专利工作。"
+        }
       },
       {
         "uid": "Article:第四条",
         "node_type": "Article",
         "name": "第四条",
-        "extra": {}
+        "extra": {
+          "body": "发明和实用新型专利申请由国务院专利行政部门负责受理、审查和批准。"
+        }
       },
       {
         "uid": "Article:第五条",
         "node_type": "Article",
         "name": "第五条",
-        "extra": {}
+        "extra": {
+          "body": "探索违反法律、社会公德或妨害公共利益的发明创造，不授予专利权。"
+        }
       },
       {
         "uid": "Article:第六条",
         "node_type": "Article",
         "name": "第六条",
-        "extra": {}
+        "extra": {
+          "body": "执行本单位任务或者主要利用本单位物质技术条件所完成的发明创造为职务发明创造。"
+        }
       },
       {
         "uid": "Article:第七条",
         "node_type": "Article",
         "name": "第七条",
-        "extra": {}
+        "extra": {
+          "body": "发明创造申请专利的权利属于发明人或者设计人，单位可以与个人约定权利归属。"
+        }
       },
       {
         "uid": "Article:第八条",
         "node_type": "Article",
         "name": "第八条",
-        "extra": {}
+        "extra": {
+          "body": "两个以上单位或者个人共同完成的发明创造，专利申请权和专利权由约定决定。\n第二章 专利的授予条件"
+        }
       },
       {
         "uid": "Article:第二十二条",
         "node_type": "Article",
         "name": "第二十二条",
-        "extra": {}
+        "extra": {
+          "body": "发明和实用新型应当具备新颖性、创造性和实用性。"
+        }
       },
       {
         "uid": "Article:第二十三条",
         "node_type": "Article",
         "name": "第二十三条",
-        "extra": {}
+        "extra": {
+          "body": "外观设计应当与已有设计明显不同，不得侵害他人在先权利。"
+        }
       },
       {
         "uid": "Article:第二十四条",
         "node_type": "Article",
         "name": "第二十四条",
-        "extra": {}
+        "extra": {
+          "body": "某些公开情形不丧失新颖性。"
+        }
       },
       {
         "uid": "Article:第二十五条",
         "node_type": "Article",
         "name": "第二十五条",
-        "extra": {}
+        "extra": {
+          "body": "科学发现、智力活动方法、疾病诊断方法等不得授予专利权。\n第三章 专利申请"
+        }
       },
       {
         "uid": "Article:第二十六条",
         "node_type": "Article",
         "name": "第二十六条",
-        "extra": {}
+        "extra": {
+          "body": "申请发明或实用新型应提交请求书、说明书及必要图纸。"
+        }
       },
       {
         "uid": "Article:第二十七条",
         "node_type": "Article",
         "name": "第二十七条",
-        "extra": {}
+        "extra": {
+          "body": "申请外观设计应提交设计图片或照片及简要说明。"
+        }
       },
       {
         "uid": "Article:第三十条",
         "node_type": "Article",
         "name": "第三十条",
-        "extra": {}
+        "extra": {
+          "body": "申请日以国务院专利行政部门收到申请文件之日为准。\n第四章 专利审查"
+        }
       },
       {
         "uid": "Article:第三十四条",
         "node_type": "Article",
         "name": "第三十四条",
-        "extra": {}
+        "extra": {
+          "body": "发明专利申请进行初步审查。"
+        }
       },
       {
         "uid": "Article:第三十五条",
         "node_type": "Article",
         "name": "第三十五条",
-        "extra": {}
+        "extra": {
+          "body": "自申请日起三年内可提出实质审查请求。"
+        }
       },
       {
         "uid": "Article:第三十九条",
         "node_type": "Article",
         "name": "第三十九条",
-        "extra": {}
+        "extra": {
+          "body": "审查合格的，授予发明专利权。"
+        }
       },
       {
         "uid": "Article:第四十条",
         "node_type": "Article",
         "name": "第四十条",
-        "extra": {}
+        "extra": {
+          "body": "实用新型和外观设计经初步审查合格即可授予专利权。\n第五章 专利权的期限与保护"
+        }
       },
       {
         "uid": "Article:第四十二条",
         "node_type": "Article",
         "name": "第四十二条",
-        "extra": {}
+        "extra": {
+          "body": "发明专利期限为20年，实用新型和外观设计为15年，自申请日起计算。"
+        }
       },
       {
         "uid": "Article:第四十三条",
         "node_type": "Article",
         "name": "第四十三条",
-        "extra": {}
+        "extra": {
+          "body": "专利权人应缴纳年费。"
+        }
       },
       {
         "uid": "Article:第四十四条",
         "node_type": "Article",
         "name": "第四十四条",
-        "extra": {}
+        "extra": {
+          "body": "出现放弃、期满、未按期缴费等情形，专利权终止。"
+        }
       },
       {
         "uid": "Article:第四十八条",
         "node_type": "Article",
         "name": "第四十八条",
-        "extra": {}
+        "extra": {
+          "body": "未经许可实施专利的，属于侵权。"
+        }
       },
       {
         "uid": "Article:第五十条",
         "node_type": "Article",
         "name": "第五十条",
-        "extra": {}
+        "extra": {
+          "body": "专利权人或利害关系人可请求行政保护。"
+        }
       },
       {
         "uid": "Article:第五十二条",
         "node_type": "Article",
         "name": "第五十二条",
-        "extra": {}
+        "extra": {
+          "body": "专利侵权纠纷由人民法院处理。"
+        }
       },
       {
         "uid": "Article:第五十五条",
         "node_type": "Article",
         "name": "第五十五条",
-        "extra": {}
+        "extra": {
+          "body": "侵权人应赔偿损失，可适用惩罚性赔偿，最高五倍。\n第六章 强制许可"
+        }
       },
       {
         "uid": "Article:第五十八条",
         "node_type": "Article",
         "name": "第五十八条",
-        "extra": {}
+        "extra": {
+          "body": "国家可为公共健康等需要给予强制许可。"
+        }
       },
       {
         "uid": "Article:第五十九条",
         "node_type": "Article",
         "name": "第五十九条",
-        "extra": {}
+        "extra": {
+          "body": "强制许可的实施应支付合理使用费。\n第七章 专利实施许可与转让"
+        }
       },
       {
         "uid": "Article:第六十条",
         "node_type": "Article",
         "name": "第六十条",
-        "extra": {}
+        "extra": {
+          "body": "专利权人可以许可他人实施其专利。"
+        }
       },
       {
         "uid": "Article:第六十二条",
         "node_type": "Article",
         "name": "第六十二条",
-        "extra": {}
+        "extra": {
+          "body": "专利权转让须办理登记。\n第八章 外观设计专章新增内容（2021版）"
+        }
       },
       {
         "uid": "Article:第六十八条",
         "node_type": "Article",
         "name": "第六十八条",
-        "extra": {}
+        "extra": {
+          "body": "专利欺诈、假冒专利，由行政机关予以处罚。"
+        }
       },
       {
         "uid": "Article:第六十九条",
         "node_type": "Article",
         "name": "第六十九条",
-        "extra": {}
+        "extra": {
+          "body": "阻挠执法的，依法追究责任。\n第十章 附则"
+        }
       },
       {
         "uid": "Article:第七十一条",
         "node_type": "Article",
         "name": "第七十一条",
-        "extra": {}
+        "extra": {
+          "body": "外观设计可延伸至部分设计。"
+        }
       },
       {
         "uid": "Article:第七十二条",
         "node_type": "Article",
         "name": "第七十二条",
-        "extra": {}
+        "extra": {
+          "body": "在先使用权制度得到加强。\n第九章 法律责任"
+        }
       },
       {
         "uid": "Article:第七十六条",
         "node_type": "Article",
         "name": "第七十六条",
+        "extra": {
+          "body": "国务院规定的所属实施细则继续适用。"
+        }
+      },
+      {
+        "uid": "Right:专利权",
+        "node_type": "Right",
+        "name": "专利权",
         "extra": {}
       },
       {
-        "uid": "Concept:发明创造",
-        "node_type": "Concept",
+        "uid": "Definition:发明创造",
+        "node_type": "Definition",
         "name": "发明创造",
+        "extra": {
+          "definition": "发明、实用新型和外观设计"
+        }
+      },
+      {
+        "uid": "Concept:发明",
+        "node_type": "Concept",
+        "name": "发明",
         "extra": {}
       },
       {
-        "uid": "Concept:新颖性",
+        "uid": "Concept:实用新型",
         "node_type": "Concept",
-        "name": "新颖性",
+        "name": "实用新型",
         "extra": {}
       },
       {
-        "uid": "Concept:创造性",
+        "uid": "Concept:外观设计",
         "node_type": "Concept",
-        "name": "创造性",
+        "name": "外观设计",
         "extra": {}
       },
       {
-        "uid": "Concept:实用性",
-        "node_type": "Concept",
-        "name": "实用性",
+        "uid": "Entity:国务院专利行政部门",
+        "node_type": "Entity",
+        "name": "国务院专利行政部门",
         "extra": {}
       },
       {
-        "uid": "Concept:侵权",
+        "uid": "Concept:发明和实用新型专利申请",
         "node_type": "Concept",
-        "name": "侵权",
+        "name": "发明和实用新型专利申请",
         "extra": {}
+      },
+      {
+        "uid": "Concept:违反法律等发明创造",
+        "node_type": "Concept",
+        "name": "违反法律、社会公德或妨害公共利益的发明创造",
+        "extra": {}
+      },
+      {
+        "uid": "Definition:职务发明创造",
+        "node_type": "Definition",
+        "name": "职务发明创造",
+        "extra": {}
+      },
+      {
+        "uid": "Right:申请专利的权利",
+        "node_type": "Right",
+        "name": "申请专利的权利",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:发明或实用新型",
+        "node_type": "Concept",
+        "name": "发明或实用新型",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:请求书",
+        "node_type": "Concept",
+        "name": "请求书",
+        "extra": {
+          "category": "application_document"
+        }
+      },
+      {
+        "uid": "Concept:说明书",
+        "node_type": "Concept",
+        "name": "说明书",
+        "extra": {
+          "category": "application_document"
+        }
+      },
+      {
+        "uid": "Concept:必要图纸",
+        "node_type": "Concept",
+        "name": "必要图纸",
+        "extra": {
+          "category": "application_document"
+        }
+      },
+      {
+        "uid": "Concept:设计图片或照片",
+        "node_type": "Concept",
+        "name": "设计图片或照片",
+        "extra": {
+          "category": "application_document"
+        }
+      },
+      {
+        "uid": "Concept:简要说明",
+        "node_type": "Concept",
+        "name": "简要说明",
+        "extra": {
+          "category": "application_document"
+        }
       }
     ],
     "relations": [
@@ -535,31 +683,101 @@
         "rel_type": "HAS_ARTICLE"
       },
       {
+        "from_uid": "Article:第一条",
+        "to_uid": "Right:专利权",
+        "rel_type": "PROTECTS"
+      },
+      {
         "from_uid": "Article:第二条",
-        "to_uid": "Concept:发明创造",
+        "to_uid": "Definition:发明创造",
         "rel_type": "DEFINES"
       },
       {
-        "from_uid": "Article:第二十二条",
-        "to_uid": "Concept:新颖性",
+        "from_uid": "Definition:发明创造",
+        "to_uid": "Concept:发明",
+        "rel_type": "INCLUDES"
+      },
+      {
+        "from_uid": "Definition:发明创造",
+        "to_uid": "Concept:实用新型",
+        "rel_type": "INCLUDES"
+      },
+      {
+        "from_uid": "Definition:发明创造",
+        "to_uid": "Concept:外观设计",
+        "rel_type": "INCLUDES"
+      },
+      {
+        "from_uid": "Article:第三条",
+        "to_uid": "Entity:国务院专利行政部门",
+        "rel_type": "ASSIGNS_RESPONSIBILITY"
+      },
+      {
+        "from_uid": "Article:第四条",
+        "to_uid": "Concept:发明和实用新型专利申请",
+        "rel_type": "APPLICATION_TYPE"
+      },
+      {
+        "from_uid": "Article:第四条",
+        "to_uid": "Entity:国务院专利行政部门",
+        "rel_type": "HANDLES_APPLICATION"
+      },
+      {
+        "from_uid": "Article:第五条",
+        "to_uid": "Concept:违反法律等发明创造",
+        "rel_type": "EXCLUDES"
+      },
+      {
+        "from_uid": "Article:第五条",
+        "to_uid": "Right:专利权",
+        "rel_type": "DENIES"
+      },
+      {
+        "from_uid": "Article:第六条",
+        "to_uid": "Definition:职务发明创造",
         "rel_type": "DEFINES"
       },
       {
-        "from_uid": "Article:第二十二条",
-        "to_uid": "Concept:创造性",
+        "from_uid": "Article:第七条",
+        "to_uid": "Right:申请专利的权利",
         "rel_type": "DEFINES"
       },
       {
-        "from_uid": "Article:第二十二条",
-        "to_uid": "Concept:实用性",
-        "rel_type": "DEFINES"
+        "from_uid": "Article:第二十六条",
+        "to_uid": "Concept:发明或实用新型",
+        "rel_type": "APPLIES_TO_OBJECT"
       },
       {
-        "from_uid": "Article:第四十八条",
-        "to_uid": "Concept:侵权",
-        "rel_type": "DEFINES"
+        "from_uid": "Article:第二十六条",
+        "to_uid": "Concept:请求书",
+        "rel_type": "REQUIRES_DOC"
+      },
+      {
+        "from_uid": "Article:第二十六条",
+        "to_uid": "Concept:说明书",
+        "rel_type": "REQUIRES_DOC"
+      },
+      {
+        "from_uid": "Article:第二十六条",
+        "to_uid": "Concept:必要图纸",
+        "rel_type": "REQUIRES_DOC"
+      },
+      {
+        "from_uid": "Article:第二十七条",
+        "to_uid": "Concept:外观设计",
+        "rel_type": "APPLIES_TO_OBJECT"
+      },
+      {
+        "from_uid": "Article:第二十七条",
+        "to_uid": "Concept:设计图片或照片",
+        "rel_type": "REQUIRES_DOC"
+      },
+      {
+        "from_uid": "Article:第二十七条",
+        "to_uid": "Concept:简要说明",
+        "rel_type": "REQUIRES_DOC"
       }
     ]
   },
-  "reasoning_content": "首先，识别法律实体《中华人民共和国专利法（2021年修订版全文）》作为Law节点。然后提取所有10个章节作为Chapter节点，uid基于章节编号确保唯一。接下来，从章节内容中提取所有提到的条款作为Article节点，基于条款编号指定uid。对于概念实体，选择文本中明确定义的关键概念：Article 第二条定义了'发明创造'，Article 第二十二条定义了'新颖性、创造性、实用性'，Article 第四十八条定义了'侵权'，因此创建Concept节点。关系构建包括：Law到所有Chapter的HAS_CHAPTER关系；每个Chapter到其Article的HAS_ARTICLE关系；特定Article到Concept的DEFINES关系，因为这些条款提供定义。uid使用中文前缀保持稳定性和唯一性。node_type严格使用指定类型，extra留空。文本中其他概念（如职务发明创造）未提取，因为焦点在核心定义上；处理了所有章节和可见条款以确保完整性。"
+  "reasoning_content": "1. 识别结构性实体：创建法律主体（Law:专利法）、10个章节节点（Chapter）和28个条款节点（Article），名称与文本严格匹配。2. 提取语义实体：从条款正文中提取权利（如专利权、申请专利的权利）、定义（如发明创造、职务发明创造）、概念（如发明、实用新型、外观设计、发明和实用新型专利申请、违反法律等发明创造）和实体（如国务院专利行政部门）。3. 建立关系：法律包含章节，章节包含条款；条款与语义实体的关系基于内容（如第一条保护专利权、第二条定义发明创造、第三条指派责任）。4. 严格避免将结构性标记（如第二十六条）作为语义实体。5. 处理部分提取：因文本较长，优先处理总则章节（第一条至第八条）的关键语义，其他章节抽取基础结构关系。"
 }
