@@ -1,0 +1,565 @@
+{
+  "content": {
+    "entities": [
+      {
+        "uid": "Law:专利法",
+        "node_type": "Law",
+        "name": "中华人民共和国专利法（2021年修订版全文）",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第一章",
+        "node_type": "Chapter",
+        "name": "总则",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第二章",
+        "node_type": "Chapter",
+        "name": "专利的授予条件",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第三章",
+        "node_type": "Chapter",
+        "name": "专利申请",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第四章",
+        "node_type": "Chapter",
+        "name": "专利审查",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第五章",
+        "node_type": "Chapter",
+        "name": "专利权的期限与保护",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第六章",
+        "node_type": "Chapter",
+        "name": "强制许可",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第七章",
+        "node_type": "Chapter",
+        "name": "专利实施许可与转让",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第八章",
+        "node_type": "Chapter",
+        "name": "外观设计专章新增内容（2021版）",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第九章",
+        "node_type": "Chapter",
+        "name": "法律责任",
+        "extra": {}
+      },
+      {
+        "uid": "Chapter:第十章",
+        "node_type": "Chapter",
+        "name": "附则",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第一条",
+        "node_type": "Article",
+        "name": "第一条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二条",
+        "node_type": "Article",
+        "name": "第二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第三条",
+        "node_type": "Article",
+        "name": "第三条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四条",
+        "node_type": "Article",
+        "name": "第四条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五条",
+        "node_type": "Article",
+        "name": "第五条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第六条",
+        "node_type": "Article",
+        "name": "第六条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第七条",
+        "node_type": "Article",
+        "name": "第七条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第八条",
+        "node_type": "Article",
+        "name": "第八条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十二条",
+        "node_type": "Article",
+        "name": "第二十二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十三条",
+        "node_type": "Article",
+        "name": "第二十三条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十四条",
+        "node_type": "Article",
+        "name": "第二十四条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十五条",
+        "node_type": "Article",
+        "name": "第二十五条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十六条",
+        "node_type": "Article",
+        "name": "第二十六条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第二十七条",
+        "node_type": "Article",
+        "name": "第二十七条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第三十条",
+        "node_type": "Article",
+        "name": "第三十条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第三十四条",
+        "node_type": "Article",
+        "name": "第三十四条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第三十五条",
+        "node_type": "Article",
+        "name": "第三十五条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第三十九条",
+        "node_type": "Article",
+        "name": "第三十九条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四十条",
+        "node_type": "Article",
+        "name": "第四十条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四十二条",
+        "node_type": "Article",
+        "name": "第四十二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四十三条",
+        "node_type": "Article",
+        "name": "第四十三条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四十四条",
+        "node_type": "Article",
+        "name": "第四十四条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第四十八条",
+        "node_type": "Article",
+        "name": "第四十八条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五十条",
+        "node_type": "Article",
+        "name": "第五十条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五十二条",
+        "node_type": "Article",
+        "name": "第五十二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五十五条",
+        "node_type": "Article",
+        "name": "第五十五条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五十八条",
+        "node_type": "Article",
+        "name": "第五十八条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第五十九条",
+        "node_type": "Article",
+        "name": "第五十九条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第六十条",
+        "node_type": "Article",
+        "name": "第六十条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第六十二条",
+        "node_type": "Article",
+        "name": "第六十二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第六十八条",
+        "node_type": "Article",
+        "name": "第六十八条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第六十九条",
+        "node_type": "Article",
+        "name": "第六十九条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第七十一条",
+        "node_type": "Article",
+        "name": "第七十一条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第七十二条",
+        "node_type": "Article",
+        "name": "第七十二条",
+        "extra": {}
+      },
+      {
+        "uid": "Article:第七十六条",
+        "node_type": "Article",
+        "name": "第七十六条",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:发明创造",
+        "node_type": "Concept",
+        "name": "发明创造",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:新颖性",
+        "node_type": "Concept",
+        "name": "新颖性",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:创造性",
+        "node_type": "Concept",
+        "name": "创造性",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:实用性",
+        "node_type": "Concept",
+        "name": "实用性",
+        "extra": {}
+      },
+      {
+        "uid": "Concept:侵权",
+        "node_type": "Concept",
+        "name": "侵权",
+        "extra": {}
+      }
+    ],
+    "relations": [
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第一章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第二章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第三章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第四章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第五章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第六章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第七章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第八章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第九章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Law:专利法",
+        "to_uid": "Chapter:第十章",
+        "rel_type": "HAS_CHAPTER"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第一条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第三条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第四条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第五条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第六条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第七条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第一章",
+        "to_uid": "Article:第八条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第二章",
+        "to_uid": "Article:第二十二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第二章",
+        "to_uid": "Article:第二十三条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第二章",
+        "to_uid": "Article:第二十四条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第二章",
+        "to_uid": "Article:第二十五条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第三章",
+        "to_uid": "Article:第二十六条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第三章",
+        "to_uid": "Article:第二十七条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第三章",
+        "to_uid": "Article:第三十条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第四章",
+        "to_uid": "Article:第三十四条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第四章",
+        "to_uid": "Article:第三十五条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第四章",
+        "to_uid": "Article:第三十九条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第四章",
+        "to_uid": "Article:第四十条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第四十二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第四十三条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第四十四条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第四十八条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第五十条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第五十二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第五章",
+        "to_uid": "Article:第五十五条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第六章",
+        "to_uid": "Article:第五十八条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第六章",
+        "to_uid": "Article:第五十九条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第七章",
+        "to_uid": "Article:第六十条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第七章",
+        "to_uid": "Article:第六十二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第八章",
+        "to_uid": "Article:第七十一条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第八章",
+        "to_uid": "Article:第七十二条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第九章",
+        "to_uid": "Article:第六十八条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第九章",
+        "to_uid": "Article:第六十九条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Chapter:第十章",
+        "to_uid": "Article:第七十六条",
+        "rel_type": "HAS_ARTICLE"
+      },
+      {
+        "from_uid": "Article:第二条",
+        "to_uid": "Concept:发明创造",
+        "rel_type": "DEFINES"
+      },
+      {
+        "from_uid": "Article:第二十二条",
+        "to_uid": "Concept:新颖性",
+        "rel_type": "DEFINES"
+      },
+      {
+        "from_uid": "Article:第二十二条",
+        "to_uid": "Concept:创造性",
+        "rel_type": "DEFINES"
+      },
+      {
+        "from_uid": "Article:第二十二条",
+        "to_uid": "Concept:实用性",
+        "rel_type": "DEFINES"
+      },
+      {
+        "from_uid": "Article:第四十八条",
+        "to_uid": "Concept:侵权",
+        "rel_type": "DEFINES"
+      }
+    ]
+  },
+  "reasoning_content": "首先，识别法律实体《中华人民共和国专利法（2021年修订版全文）》作为Law节点。然后提取所有10个章节作为Chapter节点，uid基于章节编号确保唯一。接下来，从章节内容中提取所有提到的条款作为Article节点，基于条款编号指定uid。对于概念实体，选择文本中明确定义的关键概念：Article 第二条定义了'发明创造'，Article 第二十二条定义了'新颖性、创造性、实用性'，Article 第四十八条定义了'侵权'，因此创建Concept节点。关系构建包括：Law到所有Chapter的HAS_CHAPTER关系；每个Chapter到其Article的HAS_ARTICLE关系；特定Article到Concept的DEFINES关系，因为这些条款提供定义。uid使用中文前缀保持稳定性和唯一性。node_type严格使用指定类型，extra留空。文本中其他概念（如职务发明创造）未提取，因为焦点在核心定义上；处理了所有章节和可见条款以确保完整性。"
+}
