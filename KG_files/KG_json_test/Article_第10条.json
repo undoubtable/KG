@@ -1,5 +1,5 @@
 {
-  "reasoning_content": "文本是著作权法第10条的内容，定义著作权包括的权利。首先，识别实体：整个法律为'中华人民共和国著作权法'，node_type为Law；条款'第十条'，node_type为Article；列出的权利包括发表权、署名权、修改权、保护作品完整权，node_type均为Right。接着，提取关系：法律拥有文章（HAS_ARTICLE），文章拥有每个权利（HAS_RIGHT）。定义文本作为extra信息添加到权利实体中，保护作品完整权无额外定义。uid基于名称生成以保证唯一性。",
+  "reasoning_content": "步骤1：阅读文本，识别为法律条款内容。文本开头是'第十条'，表明这是一个Article（条款），隶属于著作权法。文本主要内容是定义著作权所包括的权利列表。步骤2：提取实体。基于node_type规则，创建Law实体代表著作权法，uid为'Law:著作权法'；Article实体代表第十条，uid为'Article:第10条'；四个权利实体（发表权、署名权、修改权、保护作品完整权），node_type为'Right'，uid如'Right:发表权'。其中，发表权、署名权、修改权有额外描述，添加到extra中；保护作品完整权无描述，extra为空。步骤3：提取关系。Law与Article之间是HAS_ARTICLE关系；Article与每个Right之间，因文本使用'包括'，采用INCLUDES关系类型。步骤4：确保uid唯一稳定，rel_type大写简洁，JSON格式严格遵循要求。",
   "content": {
     "entities": [
       {
@@ -19,7 +19,7 @@
         "node_type": "Right",
         "name": "发表权",
         "extra": {
-          "definition": "即决定作品是否公之于众的权利"
+          "description": "决定作品是否公之于众的权利"
         }
       },
       {
@@ -27,7 +27,7 @@
         "node_type": "Right",
         "name": "署名权",
         "extra": {
-          "definition": "即表明作者身份，在作品上署名的权利"
+          "description": "表明作者身份，在作品上署名的权利"
         }
       },
       {
@@ -35,7 +35,7 @@
         "node_type": "Right",
         "name": "修改权",
         "extra": {
-          "definition": "即修改或者授权他人修改作品的权利"
+          "description": "修改或者授权他人修改作品的权利"
         }
       },
       {
@@ -54,22 +54,22 @@
       {
         "from_uid": "Article:第10条",
         "to_uid": "Right:发表权",
-        "rel_type": "HAS_RIGHT"
+        "rel_type": "INCLUDES"
       },
       {
         "from_uid": "Article:第10条",
         "to_uid": "Right:署名权",
-        "rel_type": "HAS_RIGHT"
+        "rel_type": "INCLUDES"
       },
       {
         "from_uid": "Article:第10条",
         "to_uid": "Right:修改权",
-        "rel_type": "HAS_RIGHT"
+        "rel_type": "INCLUDES"
       },
       {
         "from_uid": "Article:第10条",
         "to_uid": "Right:保护作品完整权",
-        "rel_type": "HAS_RIGHT"
+        "rel_type": "INCLUDES"
       }
     ]
   }
